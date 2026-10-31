@@ -1,4 +1,5 @@
 # DoodleDex: Doodle Search Engine
+**🔗 Deployed Model:** <https://quick-draw-doodle-search.streamlit.app>
 
 ## How it works
 
