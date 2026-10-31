@@ -63,7 +63,7 @@ with tab_draw:
         try:
             canvas = st_canvas(stroke_width=8, stroke_color="#000000", background_color="#FFFFFF",
                                height=280, width=280, drawing_mode="freedraw",
-                               update_streamlit=True, return_image_data=True, key="canvas")
+                               update_streamlit=True, key="canvas")
             if canvas.image_data is not None:
                 show_results(Image.fromarray(canvas.image_data.astype("uint8")))
         except Exception as e:
